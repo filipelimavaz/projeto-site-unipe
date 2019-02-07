@@ -1,0 +1,273 @@
+@charset = 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/* font-family: 'Titillium Web', sans-serif; */
+@font-face {
+    font-family: 'FonteGotham';
+    src: url(".../_fonts/gotham.ots");
+}
+        
+body{
+    font-family: "Roboto", roboto, sans-serif;
+    background-color: #ddbe4b;
+    color: rgba(0,0,0,1);
+}
+
+
+div#interface {
+    width: 1200px;
+    background-color: #63b6ae;
+    margin: 230px auto 0px auto;
+    border: 2px solid none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+div#form{
+    border-color: transparent;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+        
+p {
+     text-align: justify; 
+     text-indent: 50px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: capitalize;
+    position: absolute;
+    top: -20px;
+    left: 912px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #f29535;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #CC3300;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+header#cabecalho img#img-fundo {
+    position: absolute;
+    top: -20px;
+    left: 66px;
+}
+
+/* Formatação de imagens com legendas */
+
+
+figure.foto-legenda{
+    position: relative;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda h3#titulo-foto{
+    text-indent: 10px;
+}
+
+figure.foto-legenda p#legenda-foto{
+    text-indent: 10px;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    bottom: 4px;
+    padding-right: 285px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/*--------------------------*/
+
+section#corpo{
+    display: block;
+    width: 700px;
+    padding-left: 20px;
+    float: left;
+    border-right: 3px solid #CC3300;
+    padding-right: 20px;
+}
+
+section#corpo div.video-pompeii{
+    position: relative;
+    float: left;
+    margin: 10px;
+    left: 40px;
+}
+
+section#corpo div.video-goodgrief{
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+
+header#home-top img#bastille-body{
+    display: block;
+    height: 100px;
+    padding-left: 70px;
+}
+
+article#home h2{
+    font-size: 20px;
+    color: black;
+    background-color: #00887a;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+article#home p{
+    padding: 5px 10px 5px 10px;
+    margin: -10px 0px 10px 0px;
+}
+
+aside#lateral{
+    display: block;
+    width: 410px;
+    float: right;
+    padding: 0px 10px 80px 10px;
+    background-color: #dadada;
+    
+}
+
+aside#lateral h2{
+    background-color: #00887a;
+    font-size: 20px;
+    color: black;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+aside#lateral p{
+    padding: 5px 10px 5px 10px;
+    margin: -10px 0px 10px 0px;
+}
+
+table#tabela-shows td{
+    border: 1px solid #0088aa;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+table#tabela-shows td.left{
+    background-color: #f29535;
+    color: white;
+}
+
+table#tabela-shows td.right{
+    background-color: #63b6ae;
+}
+
+table#tabela-shows td.right:hover{
+    color: white;
+}
+
+table#tabela-shows td#data{
+    color: white;
+}
+
+table#tabela-shows caption{
+    padding: 5px;
+    background-color: #0088aa;
+    color: white;
+}
+
+table#tabela-shows{
+    border: 1px solid #0088aa;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav#menu-2 h1{
+    display: none;
+}
+
+nav#menu-2 ul {
+    list-style: none;
+    position: absolute;
+    padding: 5px;
+}
+
+nav#menu-2 li{
+    display: block;
+    margin: 10px;
+}
+
+aside#lateral img#facebook-icon{
+    left: 100px;
+    position: absolute;
+    height: 50px;
+    top: 0px;
+}
+
+aside#lateral img#facebook-icon:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+aside#lateral img#instagram-icon{
+    position: absolute;
+    height: 50px;
+    top: 0px;
+}
+
+aside#lateral img#instagram-icon:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+aside#lateral img#twitter-icon{
+    left: 190px;
+    position: absolute;
+    height: 50px;
+    top: 0px;
+}
+
+aside#lateral img#twitter-icon:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 3px solid #CC3300;
+}
+
+footer#rodape p{
+    text-align: center;
+}

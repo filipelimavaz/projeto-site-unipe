@@ -1,0 +1,26 @@
+@charset="UTF8";
+
+section#corpo-full img#bastille-integrantes {
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+section#conteudo {
+    width: 1200px;
+    margin: auto;
+}
+
+section#corpo-full p{
+    color: white;
+    font-size: 13pt;
+    margin-top: 10px;
+}
+
+iframe#frame-integrantes {
+    width: 550px;
+    height: 348px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border: none;
+    overflow: hidden;
+}

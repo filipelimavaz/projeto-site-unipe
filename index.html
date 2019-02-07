@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='utf-8'/>
+    <title>Bastille</title>
+    <link rel="stylesheet" href="css/estilo.css"/>
+</head>
+    
+<script>
+    function mudaData(id){
+        document.getElementById("data").innerHTML=(id);
+    }
+</script>
+
+<body>
+<div id="interface">
+    
+<header id="cabecalho">
+<img id="img-fundo" src="imagens/top-img.png"/>
+<nav id="menu">
+<h1>Menu Principal</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="historia.html">Integrantes</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="junte-se.html">Join us</a></li>
+    </ul>
+</nav>
+</header>
+
+<section id="corpo">
+<article id="home">
+<h2>Banda</h2>
+<p>Bastille (estilizado como BΔSTILLE) é uma banda de indie/alternative rock inglesa formada em Londres, em 2010. Originalmente um projeto solo do cantor e compositor Dan Smith, este mais tarde decidiu formar uma banda. O quarteto é composto por Daniel Campbell "Dan" Smith, Chris "Woody" Wood, William Farquarson e Kyle Jonathan Simmons. Eles recentemente acrescentaram um membro em tour com a banda, Charlie Barnes. O nome da banda é derivado do Dia da Bastilha, evento histórico celebrado no aniversário de Daniel Smith, 14 de julho.
+</p>
+
+    
+<figure class="foto-legenda">
+    <img src="imagens/bastille-img-home.jpg"/>
+    <figcaption>
+        <h3 id="titulo-foto">Bastille</h3>
+        <p id="legenda-foto">At The Novo, Los Angeles, 19 de Abril 2013</p>
+    </figcaption>
+</figure>
+    
+<h2>História</h2>
+<p>Inicialmente a banda era composta por dois outros músicos no violino e violoncelo que saíram da banda porque estavam em busca de algo mais profissional. Dan, Woody, Will e Kyle tocavam juntos antes da banda ter sido iniciada, mas todas as suas primeiras canções foram escritas e gravadas por Smith.</p>
+
+<p>Bastille estreou em junho de 2010 com a sua edição limitada de 7 "/ 45 rpm único com as duas faixas de "Flaws" e "Icarus". Lançado através da gravadora independente com sede em Londres, 'Young and Lost Club', apenas 300 cópias foram publicadas. Este seguiu-se o lançamento do EP "Laura Palmer" mais tarde, em 2011. Depois de estrear mais faixas on-line através de sites como YouTube e MySpace, a banda recebeu grande atenção da media e fãs. O grupo posteriormente garantiu a presença em pequenos eventos, e mais tarde atuou em importantes festivais do Reino Unido, incluindo Festival de Glastonbury, o Isle of Wight Festival e Blissfields.</p>
+
+<p>A sua música também tem sido usada em grande parte na novela Hollyoaks, Made In Chelsea,The Vampire Diaries e How to Get Away with Murder, continuando a maioria das suas faixas do álbum Bad Blood a serem utilizadas em 2013.</p>
+
+<p>A banda também gravou e lançou online uma mixtape titulada "Other People's Heartache" dividida em duas partes com diversos covers feitos pela banda de musicas como "Titanium", de David Guetta, "No Scrubs" de TLC, "Angels" de The XX, e "Dreams" de Fleetwood Mac.
+</p>
+
+<h2>Pompeii</h2>
+<p>"Pompeii" é a canção mais famosa da banda britânica Bastille. Foi lançada originalmente em 11 de janeiro de 2013 e, para download digital no dia 24 de fevereiro de 2013. É o lançamento mais vendido a nível internacional do grupo musical, alcançando número um na Irlanda e conquistando número dois nas paradas musicais do Reino Unido. Além do sucesso em países europeus, ingressou no top 10 nas listas da Austrália, Nova Zelândia e Estados Unidos segundo a Billboard Hot 100. A letra, criada pelo vocalista Dan Smith, foi inspirada na Pompeia, cidade do Império Romano destruída pela erupção do Vesúvio de 79.
+</p>
+
+<div class='video-pompeii'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/F90Cw4l-8NY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</article>
+</section>
+
+<aside id="lateral">
+<h2>Videoclip mais recente</h2>
+
+<div class='video-goodgrief'>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/ZWCB3hpJDXM" frameborder="0" allowfullscreen></iframe>
+</div>
+    
+<h2>Agenda</h2>
+<table id="tabela-shows">
+    <caption>Próximos shows</caption>
+    <tr><td rowspan="2" class="left">London</td><td class="right" onmouseover="mudaData('26/07')" onmouseout="mudaData('')">The National Theatre</td></tr>
+    <tr><td class="right" onmouseover="mudaData('30/07')" onmouseout="mudaData('')">O2 Arena</td></tr>
+    <tr><td rowspan="2" class="left">New York</td><td class="right" onmouseover="mudaData('16/04')" onmouseout="mudaData('')"> Carnegie Hall</td></tr>
+    <tr><td class="right" onmouseover="mudaData('04/08')" onmouseout="mudaData('')">Madison Square Garden</td></tr>
+    <tr><td class="left">Washington</td><td class="right" onmouseover="mudaData('13/08')" onmouseout="mudaData('')">Arena Stage</td></tr>
+    <tr><td class="left">San Francisco</td><td class="right" onmouseover="mudaData('23/08')" onmouseout="mudaData('')">Jack London Square</td></tr>
+    <tr><td class="left">Sydney</td><td class="right" onmouseover="mudaData('01/09')" onmouseout="mudaData('')">Griffin Theatre Company</td></tr>
+    <tr><td class="left">Tokyo</td><td class="right" onmouseover="mudaData('09/09')" onmouseout="mudaData('')">Suntory Hall</td></tr>
+    <tr><td classe="left">Data</td><td class="right" id="data"></tr>
+    
+</table>
+    
+<h2>Redes Sociais</h2>
+<nav id="menu-2">
+    <h1>Menu Redes Sociais</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/bastilleuk/" target="_blanck"><img id="facebook-icon" src="imagens/facebook-icon.png"/></a></li>
+        <li><a href="https://twitter.com/bastilledan?lang=pt" target="_blanck1"><img id="twitter-icon" src="imagens/twitter-icon.png"/></a></li>
+        <li><a href="https://www.instagram.com/bastillewildworld/" target="_blanck2"><img id="instagram-icon" src="imagens/instagram-icon.png"/></a></li>
+    </ul>
+</nav>
+</aside>    
+
+<footer id="rodape">
+    <p>Copyright &copy; 2017 - by Filipe de Lima Vaz<br>
+    <a href="http://facebook.com/bastilleuk/" target="_blanck">Facebook</a> | <a href="https://twitter.com/bastilledan?lang=pt" target="_blanck">Twitter</a></p>
+    </footer>
+    
+</div>
+</body>
+</html>
